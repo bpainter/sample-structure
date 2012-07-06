@@ -1,0 +1,7 @@
+.DS_Store
+.sass-cache
+output/*
+Gemfile.lock
+.rvmrc
+.livereload
+tmp/*
