@@ -1,3 +1,8 @@
+/* to-do
+  • clean up and remove pieces that aren't necessary
+  • add missing mixins
+*/
+
 // Mixins
 // Snippets of reusable CSS to develop faster and keep code readable
 // -----------------------------------------------------------------
@@ -19,10 +24,6 @@
   &:after {
     clear: both;
   }
-}
-
-.clearfix {
-  @include clearfix();
 }
 
 // Webkit-style focus
@@ -114,10 +115,6 @@
   text-shadow: none;
   background-color: transparent;
   border: 0;
-}
-
-.hide-text {
-  @include hide-text();
 }
 
 // FONTS
@@ -296,10 +293,6 @@
           box-sizing: $boxmodel;
 }
 
-// Uses box-sizing mixin, so must be defined here
-.input-block-level {
-  @include input-block-level();
-}
 
 // User select
 // For selecting text on the page

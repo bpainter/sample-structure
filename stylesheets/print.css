@@ -1,0 +1,349 @@
+/*  PRINT STYLES  */
+/* line 4, ../sass/print.scss */
+body {
+  background-color: #FFFFFF;
+  margin: 20px;
+  padding: 0px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #000000;
+}
+
+/* line 6, ../sass/print.scss */
+a {
+  color: #000099;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* line 8, ../sass/print.scss */
+.printhead {
+  border-bottom: 1px solid #CCC;
+  height: 30px;
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+}
+
+/* line 9, ../sass/print.scss */
+.printhead .logo {
+  float: left;
+}
+
+/* line 10, ../sass/print.scss */
+.printhead .facility {
+  float: right;
+  text-align: right;
+  margin: 0 0 0 0;
+}
+
+/* line 12, ../sass/print.scss */
+#printbody {
+  clear: left;
+}
+
+/* line 14, ../sass/print.scss */
+#articlebody {
+  margin: 10px 0 0 0;
+}
+
+/* line 16, ../sass/print.scss */
+#articleimage {
+  float: right;
+  margin: 0 0 15px 15px;
+  clear: both;
+}
+
+/* line 18, ../sass/print.scss */
+p {
+  margin: 0 0 10px 0;
+  line-height: 125%;
+}
+
+/* line 20, ../sass/print.scss */
+small {
+  font-size: 9px;
+  color: #000000;
+}
+
+/* line 22, ../sass/print.scss */
+a.special {
+  font-size: 10px;
+  padding: 0 0 0 15px;
+  margin: 0;
+  background-image: url(../layout/arrow_fwd.gif);
+  background-position: 0 2px;
+  background-repeat: no-repeat;
+}
+
+/* line 23, ../sass/print.scss */
+a.special2 b {
+  font-size: 10px;
+  padding-left: 15px;
+  background-image: url(../layout/arrow_back.gif);
+  background-position: 0 2px;
+  background-repeat: no-repeat;
+}
+
+/* line 25, ../sass/print.scss */
+.chart {
+  margin: 15px 0 15px 0;
+}
+
+/* line 26, ../sass/print.scss */
+.chart th {
+  text-align: left;
+  font-size: 10px;
+  background-color: #666;
+  padding: 5px;
+  font-weight: normal;
+  color: #FFF;
+}
+
+/* line 27, ../sass/print.scss */
+.chart .daterow {
+  font-size: 10px;
+  padding: 3px;
+}
+
+/* line 28, ../sass/print.scss */
+.chart td {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 30, ../sass/print.scss */
+.chart .dark {
+  background: #efefef;
+}
+
+/* line 32, ../sass/print.scss */
+.chart .none {
+  padding: 5px;
+  border: none;
+}
+
+/* line 34, ../sass/print.scss */
+.highlight {
+  border: 1px solid #999999;
+  padding: 10px;
+  background: #DEDEDE;
+}
+
+/* line 36, ../sass/print.scss */
+#rightcolumn {
+  width: 33%;
+  float: right;
+  margin: 0 0 15px 15px;
+}
+
+/* line 37, ../sass/print.scss */
+#rightcolumn .small {
+  color: #666666;
+  font-size: 10px;
+}
+
+/* line 39, ../sass/print.scss */
+.articlehead {
+  margin: 0 0 15px 0;
+}
+
+/* line 40, ../sass/print.scss */
+#article .date {
+  display: none;
+}
+
+/* line 41, ../sass/print.scss */
+#display .date {
+  font-size: 10px;
+}
+
+/* line 43, ../sass/print.scss */
+h1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  margin: 0;
+  line-height: 115%;
+}
+
+/* line 45, ../sass/print.scss */
+.articleimage {
+  float: right;
+  margin: 0 0 15px 15px;
+  clear: both;
+}
+
+/* line 46, ../sass/print.scss */
+.articleimage img {
+  margin: 0 0 5px 0;
+}
+
+/* line 47, ../sass/print.scss */
+.eventlogo {
+  float: right;
+  margin: 0 0 15px 15px;
+  clear: both;
+}
+
+/* line 48, ../sass/print.scss */
+.eventlogo img {
+  margin: 0 0 20px 0;
+}
+
+/* line 50, ../sass/print.scss */
+.clear {
+  clear: both;
+  height: 1px;
+}
+
+/* line 52, ../sass/print.scss */
+#buttons, #rss, #pdfresults {
+  display: none;
+}
+
+/* line 55, ../sass/print.scss */
+.fineprint {
+  font-size: 9px;
+  text-align: center;
+}
+
+/* line 56, ../sass/print.scss */
+.fineprint img {
+  vertical-align: middle;
+}
+
+/* line 60, ../sass/print.scss */
+#blogleft h1 {
+  margin: 5px 0 10px 0;
+}
+
+/* line 61, ../sass/print.scss */
+#blogleft .loop {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+}
+
+/* line 62, ../sass/print.scss */
+#blogleft .continue {
+  display: none;
+}
+
+/* line 63, ../sass/print.scss */
+#blogleft .comment, #blogleft #postacomment {
+  display: none;
+}
+
+/* line 64, ../sass/print.scss */
+#blogleft .comment small, #blogleft #postacomment small {
+  color: #666;
+}
+
+/* line 65, ../sass/print.scss */
+#blogleft #posted {
+  display: none;
+}
+
+/* line 66, ../sass/print.scss */
+#blogleft #posted .by {
+  display: none;
+}
+
+/* line 68, ../sass/print.scss */
+.blogimage {
+  float: right;
+  margin: 0 0 15px 15px;
+  clear: both;
+}
+
+/* line 69, ../sass/print.scss */
+.blogimage img {
+  margin: 0 0 5px 0;
+  border: 1px solid #ccc;
+}
+
+/* line 71, ../sass/print.scss */
+#postacommenttable {
+  width: 100%;
+}
+
+/* line 72, ../sass/print.scss */
+#postacommenttable th, #postacommenttable td {
+  text-align: left;
+  padding: 0 10px 10px 0;
+  font-weight: normal;
+}
+
+/* line 73, ../sass/print.scss */
+#postacomment input {
+  width: 400px;
+}
+
+/* line 74, ../sass/print.scss */
+#postacomment textarea {
+  width: 405px;
+  height: 45px;
+}
+
+/* line 76, ../sass/print.scss */
+#blogright {
+  display: none;
+}
+
+/* line 78, ../sass/print.scss */
+.small {
+  font-size: 9px;
+}
+
+/* line 86, ../sass/print.scss */
+#links .date {
+  display: none;
+}
+
+/* line 89, ../sass/print.scss */
+#links .sponsorcontact {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+
+/* line 90, ../sass/print.scss */
+#links .sponsorcontact li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+  font-size: 11px;
+}
+
+/* line 91, ../sass/print.scss */
+#links .sponsorcontact li.one {
+  width: 400px;
+}
+
+/* line 94, ../sass/print.scss */
+#links ul {
+  margin: 0 0 20px 0;
+}
+
+/* line 95, ../sass/print.scss */
+#links ul li {
+  list-style-type: none;
+  float: left;
+  width: 230px;
+  height: 150px;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+/* line 99, ../sass/print.scss */
+#links li .name {
+  display: block;
+}
+
+/* line 100, ../sass/print.scss */
+#links li .description {
+  font-size: 10px;
+}

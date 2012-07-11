@@ -1,10 +1,29 @@
+// ---------------------------------------------------- 
 // Variables
-// Variables to customize the look and feel of Bootstrap
-// -----------------------------------------------------
+// Used for grayboxing. To update the theme you should
+// update the _theme-variables.scss file.
+// ---------------------------------------------------- 
 
 
+// --------------------------------------------------
+// globals
+// --------------------------------------------------
+$sub-baseline           : 6px;
+$baseline               : $sub-baseline * 3; // 18px
 
-// GLOBAL VALUES
+// --------------------------------------------------
+// grid
+// to be used with Susy
+// magically converts pixels to % for a fluid grid
+// --------------------------------------------------
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 4em;            // each column is 4em wide
+$gutter-width   : 1em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;
+$show-grid-backgrounds  : false;
+
+// --------------------------------------------------
+// colors
 // --------------------------------------------------
 
 

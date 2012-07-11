@@ -1,5 +1,6 @@
-// UTILITY CLASSES
-// ---------------
+// ----------------------------------------------------
+// utility classes
+// ----------------------------------------------------
 
 // Quick floats
 .pull-right {
@@ -20,4 +21,14 @@
 // Visibility
 .invisible {
   visibility: hidden;
+}
+
+// clearfix
+.clearfix {
+  @include clearfix();
+}
+
+// image replacement
+.hide-text {
+  @include hide-text();
 }
